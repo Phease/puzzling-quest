@@ -1,0 +1,5 @@
+width height
+name|discription|north|east|south|west|floor
+name2|discription2|north|east|south|west|floor
+name3|discription3|north|east|south|west|floor
+name...|discription...|north|east|south|west|floor

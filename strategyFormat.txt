@@ -1,0 +1,20 @@
+changeitem strategy:
+endofitem|ChangeItem@name of item triggering change@change discription@Item to change into
+
+lock strategy
+endofitem|Lock@name of item triggering unlock@discription of unlock event
+
+container strategy
+endofitem|Container@item@item...
+
+dispencer strategy
+endofitem|DispenseItem@discription of event@item getting dispensed
+
+blockMovent strategy
+enfofitem|BlockMovement@name of item triggering unblock@discription of unlock event@new discription of wall@new image of wall
+
+changeuseditem strategy:
+endofitem|ChangeUsedItem@name of item@change discription@Item to change into
+
+consume strategy:
+endofitem|Consume@name of item@discription of consumption@ammount of score a player gets from eating this@true or false if consuming increses players carrysize

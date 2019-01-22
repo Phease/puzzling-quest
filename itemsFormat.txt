@@ -1,0 +1,8 @@
+base items in items.txt (items that start at the begining of a line)
+xOfRoom yOfRoom xWithinRoom yWithinRoom name|description|size|image|STRATEGY/STRATEGY/STRATEGY...
+
+base wall items in wallitems.txt (items that start at the begining of a line)
+xOfRoom yOfRoom what_wall_the_wall_item_is_on(e.g. 0,1,2,3) name|description|size|image|STRATEGY/STRATEGY/STRATEGY...
+
+items in strategys (not base items)
+name|description|size|image|STRATEGY (ONLY 1 STRATEGY)

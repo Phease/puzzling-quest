@@ -1,0 +1,21 @@
+5 3
+
+Starting room|Here is where it all began|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+A new room|You take a step forward on your journey|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+A room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+
+Hot room|You enter the room|cobblestonewall2|cobblestonewall2|cobblestonewall2|cobblestonewall2|darkoakfloor
+Fountain room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+A room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+
+Potion room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+Brick room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+VICTORY!|YOU WIN!|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+
+Apple room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+Merchant room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+Boulder room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+
+Library|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+Mush room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor
+Brewing room|You enter the room|stonebrickwall2|stonebrickwall2|stonebrickwall2|stonebrickwall2|oakfloor

@@ -1,0 +1,35 @@
+0 0 2 2 Sign|"Welcome to Puzzling Quest! Step through the door (press Up arrow key) to begin your adventure!"|10|sign|
+0 0 1 0 Flower|It's a pretty flower|1|roses|
+0 1 4 4 Chest|A chest, no doubt full with treasure|15|chest|Container@Arcane Key|What could this key open?|1|key|
+0 1 3 4 Bookcase|A bookcase. Maybe there's a useful book if you activate it|20|bookshelf|DispenseItem@You pull out a book@Book|Legend tells of a mystical Arcane Key that can open certain locks|1|book|
+1 1 1 3 Fountain|Well, well, well. It's a fountain.|20|fountain|ChangeUsedItem@Bucket@The bucket fills with clear water@Water bucket|A bucket, full to the brim with water|2|waterbucket|
+1 0 0 0 Bucket|An empty bucket|2|emptybucket|
+1 0 4 0 Hot key|A flaming key, far too hot to touch|66|redkey|ChangeItem@Water bucket@The key cools to the touch@Cold key|This key is cold and carryable|1|bluekey|
+2 1 3 3 Brick wall|A fragile brick wall|20|smallbrickwall|ChangeItem@Pickaxe@The brick wall collapses@Rubble|A pile of rubble|1|smallbrickwallrubble2|
+2 1 3 1 Brick wall|A fragile brick wall|20|smallbrickwall|ChangeItem@Pickaxe@The brick wall collapses@Rubble|A pile of rubble|1|smallbrickwallrubble2|
+2 1 0 1 Pickaxe|A heavy pickaxe|10|pickaxe|
+2 0 1 0 Potion|A magic strength potion. Should not be drunk before major sporting events.|1|potion|Consume@Potion@You slurp down the delicious potion, and feel power shoot through your body.@10@true
+2 0 4 1 Chest|A chest, no doubt full with treasure|15|chest|Container@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|@Gold coin|Gold, precious gold|1|coin|
+3 1 2 3 Sign|"Merchant trading hours: 9:00 am - 5:00 pm."|10|sign|
+3 1 4 3 Merchant|A young, attractive melon merchant.|1000|merchant|ChangeUsedItem@Gold coin@The merchant takes the gold coin and passes you a melon, grinning cheerfully.@Melon|A delicous, juicy melon|2|melon|Consume@Melon@The melon is fresh and juicy. You savor it slowly, appreciating the fine taste of it's strong juice, and feel refreshed.@1@false
+3 1 4 0 Backpack|This backpack looks useful for carrying items|7|backpack|Container
+3 0 0 2 Apple tree|Apples are in full bloom from this tree|30|appletree|DispenseItem@You pluck an apple@Apple|A delicious apple|2|apple|Consume@Apple@You munch into the delicious apple, and savor the rich juices. It was delicious@1@false
+3 0 4 0 Chest|A chest, no doubt full with treasure|15|chest|Container@Map|A useful map of the world|1|map_filled|
+4 1 2 1 Brick wall|A fragile brick wall|20|smallbrickwall|ChangeItem@Pickaxe@The brick wall collapses@Rubble|A pile of rubble|1|smallbrickwallrubble2|
+4 1 2 3 Brick wall|A fragile brick wall|20|smallbrickwall|ChangeItem@Pickaxe@The brick wall collapses@Rubble|A pile of rubble|1|smallbrickwallrubble2|
+4 1 3 2 Brick wall|A fragile brick wall|20|smallbrickwall|ChangeItem@Pickaxe@The brick wall collapses@Rubble|A pile of rubble|1|smallbrickwallrubble2|
+4 1 1 2 Brick wall|A fragile brick wall|20|smallbrickwall|ChangeItem@Pickaxe@The brick wall collapses@Rubble|A pile of rubble|1|smallbrickwallrubble2|
+4 1 2 2 Mushroom|A nasty-looking mushroom, definitely not eatable.|1|brownmushroom|
+4 1 4 4 Sign|"Mushroom should be kept at room temperature and not exposed to light."|10|sign|
+4 0 1 1 Bookcase|A bookcase. Maybe there's a useful book if you activate it|20|bookshelf|DispenseItem@You pull out a book@Book|To make the mystic potion of strength, boil in an enchanted cauldron these ingredients in order: water, flower, apple, mushroom, melon|1|book|
+4 2 2 2 Empty cauldron|The cauldron awaits the next ingredient|20|cauldron|ChangeItem@Water bucket@The cauldron simmers ominously@Full cauldron|The cauldron awaits the next ingredient|20|cauldronblue|ChangeItem@Flower@The cauldron simmers ominously@Simmering cauldron|The cauldron awaits the next ingredient|20|cauldronpink|ChangeItem@Apple@The cauldron simmers ominously@Bubbling cauldron|The cauldron awaits the next ingredient|20|cauldronred|ChangeItem@Mushroom@The cauldron simmers ominously@Glowing cauldron|The cauldron awaits the next ingredient|20|cauldronyellow|ChangeUsedItem@Melon@The cauldron GLOWS BRILLIANTLY AND MAGICALLY CREATES A POTION@Potion|A magic strength potion. Should not be drunk before major sporting events.|1|potion|Consume@Potion@You slurp down the delicious potion, and feel power shoot through your body.@10@true
+3 2 1 2 Boulder|A heavy boulder|11|boulder|
+2 2 2 2 Sign|"CONGRATULATIONS! YOU WIN! HAVE SOME CAKE!"|10|sign|
+2 2 3 4 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 4 3 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 0 1 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 1 0 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 0 3 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 3 0 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 1 4 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
+2 2 4 1 Cake|CAKE, DELICIOUS DELICIOUS CAKE|2|cake|Consume@Cake@You gulp down the large, sweet cake, and savor its amazing, rich taste. It was the most delicious thing you've ever eaten.@100@false
